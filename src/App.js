@@ -1,7 +1,7 @@
 import LeftMenu from "./Components/LeftMenu";
 import RightHome from "./Components/RightHome";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -10,9 +10,8 @@ function App() {
   return (
     <Router>
       <LeftMenu/>
-      <RightHome />
       <Routes>
-        {/* <Route path="/" element={} /> */}
+        <Route path="/" element={<RightHome />} />
       </Routes>
     </Router>
   );
