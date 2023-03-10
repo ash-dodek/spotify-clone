@@ -10,8 +10,9 @@ function App() {
   return (
     <Router>
       <LeftMenu/>
+      <RightHome />
       <Routes>
-        <Route path="/" element={<RightHome/>} />
+        {/* <Route path="/" element={} /> */}
       </Routes>
     </Router>
   );
