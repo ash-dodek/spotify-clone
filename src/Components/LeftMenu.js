@@ -7,7 +7,7 @@ function LeftMenu() {
     <>
     <div className="container-left">
         <div id="img">
-            <img id="mainImg" src={mainIcon}/>
+            <img alt='err' id="mainImg" src={mainIcon}/>
         </div>
         <div className="c1">
             Home

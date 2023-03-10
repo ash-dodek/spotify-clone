@@ -2,11 +2,16 @@
     margin-top: -8px;
     right: 0;
     width:85.4%;
-    height: 100%;
+    height: fit-content;
     position: absolute;
     background-color: hsl(0deg 0% 7%);
 }
 .recent-plays{
     margin-left: 40px;
     /* height: fit-content; */
+}
+.made-for-you{
+    /* background: pink; */
+    margin-left: 50px;
+    margin-right: 50px;
 }

@@ -9,8 +9,6 @@ const HorizontalViewer = (props) => {
             <div className="mLabel">
                 {props.title}
             </div>
-            {/* <div className="menulabel">
-        </div> */}
         </div>
     )
 }
