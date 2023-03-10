@@ -1,0 +1,28 @@
+.container-left{
+    height: 100%;
+    position: absolute;
+    float: left;
+    background-color: black;
+    /* height: 1212px; */
+    width: 15.2%;
+    outline: none;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+#img{
+    display: block;
+}
+#mainImg{
+    float: left;
+    width: 135px;
+    padding-left: 24px;
+    padding-top: 21px;
+    display: inline;
+}
+.c1{
+    display: block;
+}
+#img{
+    width: inherit;
+    display: inline-block;
+}
